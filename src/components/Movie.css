@@ -23,6 +23,10 @@
     0 3px 7px -3px rgba(0, 0, 0, 0.3);
 }
 
+.movies a {
+  display: contents;
+  text-decoration: none;
+}
 .movie img {
   max-width: 150px;
   width: 100%;
