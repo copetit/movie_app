@@ -4,10 +4,14 @@ function About() {
   return (
     <div className="container center">
       <div className="img-box">
-        <img src="redpanda.jpg" alt="redpanda"></img>{" "}
+        <img
+          className="img-profile"
+          src={`${process.env.PUBLIC_URL}/redpanda.jpg`}
+          alt="redpanda"
+        ></img>
       </div>
       <div className="ms-box">
-        <span> :) </span>
+        <span> Redpanda is not RED </span>
       </div>
     </div>
   );
